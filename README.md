@@ -5,7 +5,7 @@ This will deploy a simple Flask app
 ## Setup
     # configure your AWS keys
     $ aws configure
-	# virtualenv
+	# make a virtualenv
 	$ virtualenv env
 	$ source env/bin/activate
 	# install dependencies
@@ -21,3 +21,7 @@ This will deploy a simple Flask app
 ## Monitor Log
     # check dev environment
     $ zappa tail dev
+
+## Deploy WSGI App
+    # update API code to dev environment
+    $ zappa update dev
