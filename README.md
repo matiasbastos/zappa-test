@@ -1,6 +1,6 @@
 # Just a Zappa + Flask test
 
-This will deploy a simple Flask app
+This will deploy a simple Flask app in AWS Lambda + API Gateway.
 
 ## Setup
     # configure your AWS keys
