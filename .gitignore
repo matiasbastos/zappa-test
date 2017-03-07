@@ -46,10 +46,7 @@ coverage.xml
 .hypothesis/
 
 # Translations
-*.mo
-*.pot
-
-# Django stuff:
+*. course# Django stuff:
 *.log
 local_settings.py
 
@@ -81,9 +78,23 @@ celerybeat-schedule
 # virtualenv
 venv/
 ENV/
+env/
 
 # Spyder project settings
 .spyderproject
 
 # Rope project settings
 .ropeproject
+
+# VIM
+*.vim
+*.swp
+*.swo
+*.swn
+*.swm
+
+# Intellify dumps
+intellify_import/dumps/
+
+# misc
+pythiadb
